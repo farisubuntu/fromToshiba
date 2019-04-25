@@ -10,12 +10,12 @@ console.log('starting init');
 
 // first: the parent element 'article':
 
-article=document.querySelector('article').addEventListener('click',function (evt) {console.log('article clicked');console.log('target: ['+evt.target.type+']');});
+article=document.querySelector('article').addEventListener('click',function (evt) {console.log('article clicked');console.log('target: ['+evt.target+']');});
 // next you can: article.addEventListener(...)
-article=document.querySelector('article').addEventListener('mouseleave',function (evt) {console.log('article-mouseleave');console.log('target: ['+evt.target.type+']');});
-article=document.querySelector('article').addEventListener('mouseover',function (evt) {console.log('article -  mouseover');console.log('target: ['+evt.target.type+']');});
-article=document.querySelector('article').addEventListener('mouseenter',function (evt) {console.log('article - mouseenter');console.log('target: ['+evt.target.type+']');});
-article=document.querySelector('article').addEventListener('mouseenter',function (evt) {console.log('article - mouseenter');console.log('target: ['+evt.target.type+']');});
+article=document.querySelector('article').addEventListener('mouseleave',function (evt) {console.log('article-mouseleave');console.log('target: ['+evt.target+']');});
+article=document.querySelector('article').addEventListener('mouseover',function (evt) {console.log('article -  mouseover');console.log('target: ['+evt.target+']');});
+article=document.querySelector('article').addEventListener('mouseenter',function (evt) {console.log('article - mouseenter');console.log('target: ['+evt.target+']');});
+article=document.querySelector('article').addEventListener('mouseenter',function (evt) {console.log('article - mouseenter');console.log('target: ['+evt.target+']');});
 
 /*
 > use an array to dynamically add listeners ??
