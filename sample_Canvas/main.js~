@@ -18,7 +18,8 @@ article=document.querySelector('article').addEventListener('mouseenter',function
 article=document.querySelector('article').addEventListener('mouseenter',function (evt) {console.log('article - mouseenter');console.log('target: ['+evt.target+']');});
 
 /*
-var eventNames=['mouseleave','mouseout','mouseover','mouseenter','mouseup','mousedown','mouseclick'};
+> use an array to dynamically add listeners ??
+var eventNames=['mouseleave','mouseout','mouseover','mouseenter','mouseup','mousedown','mouseclick','mousemove'};
 
 */
 
