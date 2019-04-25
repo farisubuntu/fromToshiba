@@ -1,0 +1,4 @@
+console.log('starting script.js ');
+
+
+window.onload=init;
